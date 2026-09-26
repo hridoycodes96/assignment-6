@@ -3,7 +3,7 @@ import { IExercise } from "@/type/plan";
 
 
 const getPlan = async() => {
-  const res = await fetch('https://api.abcz.workers.dev/api/fitlog', {cache: 'no-store'});
+  const res = await fetch('https://api.api-store.workers.dev/api/fitlog', {cache: 'no-store'});
 
     if (!res.ok) {
       throw new Error(`Failed to fetch plans data: ${res.status}`);
