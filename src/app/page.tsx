@@ -1,5 +1,5 @@
-import Banner from "./component/Banner/Banner";
-import Plan from "./component/Banner/Plan";
+import Banner from "../component/Banner/Banner";
+import Plan from "../component/Banner/Plan";
 
 
 const page = () => {
