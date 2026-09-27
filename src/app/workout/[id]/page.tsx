@@ -1,4 +1,4 @@
-import PlanBtn from "../../planBtn/PlanBtn";
+import PlanBtn from "@/app/planBtn/PlanBtn";
 import Image from "next/image";
 import Link from "next/link";
 import { FiArrowLeft } from "react-icons/fi";
@@ -8,10 +8,10 @@ interface DetailsPageProps {
     id: string;
   }>;
 }
-// https://api.api-store.workers.dev/api/fitlog
+
 const getPlan = async (id: string) => {
   try {
-    const res = await fetch(`https://api.api-store.workers.dev/api/fitlog/${id}`, {
+    const res = await fetch(`https://api.abcz.workers.dev/api/fitlog/${id}`, {
       cache: "no-store",
     });
 
