@@ -5,7 +5,8 @@ import logo from '@/assets/logo.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { PlanContext } from '@/context/PlanContext';
+// import { PlanContext } from '@/context/PlanContext';
+import {PlanContext} from '../../context/PlanContext';
 
 const Navbar = () => {
   const pathname = usePathname();
