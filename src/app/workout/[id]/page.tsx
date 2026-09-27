@@ -1,4 +1,4 @@
-import PlanBtn from "@/app/planBtn/PlanBtn";
+import PlanBtn from "../../planBtn/PlanBtn";
 import Image from "next/image";
 import Link from "next/link";
 import { FiArrowLeft } from "react-icons/fi";

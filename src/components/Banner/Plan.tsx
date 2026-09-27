@@ -1,5 +1,5 @@
 import PlanCard from "../shared/PlanCard";
-import { IExercise } from "@/type/plan";
+import { IExercise } from "../../type/plan";
 
 
 const getPlan = async() => {

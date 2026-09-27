@@ -3,7 +3,7 @@
 import { useContext } from "react";
 import { useRouter } from "next/navigation";
 import { FiBookmark, FiPlusCircle } from "react-icons/fi";
-import { PlanContext } from "@/context/PlanContext";
+import { PlanContext } from "../../context/PlanContext";
 import { IExercise } from "@/type/plan";
 
 interface PlanButtonsProps {
